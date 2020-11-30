@@ -1,0 +1,13 @@
+spring:
+  devtools:
+    add-properties: false
+  application:
+    name: test-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/weiapp?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 111708@ss.com
+server:
+  port: 8021
+  httpPort: 8020
