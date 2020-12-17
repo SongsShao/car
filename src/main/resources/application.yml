@@ -8,6 +8,10 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/weiapp?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: 111708@ss.com
+mybatis:
+  configuration:
+    logImpl: org.apache.ibatis.logging.stdout.StdOutImpl
+
 server:
   port: 8021
   httpPort: 8020

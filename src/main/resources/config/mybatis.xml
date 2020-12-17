@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	
+	<!-- 通过importresource引入 -->
+	<typeAliases>
+		<!-- <typeAlias type="com.shineyue.sjgjj.pojo.business.AppUserInfo" alias="AppUserInfo"/> -->
+		<package name="com.songshao.test.dao"/>
+	</typeAliases>
+
+	<!-- 引入映射配置文件 -->
+	<mappers>
+		<mapper resource="classpath*:mapper/*.xml" />
+	</mappers>
+
+</configuration>

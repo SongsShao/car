@@ -39,6 +39,7 @@ public class CarController {
             result.setMsg("查询配件名称！");
             result.setCode(0);
         } catch (Exception e) {
+            e.printStackTrace();
             // TODO: handle exception
             result.setMsg("查询失败！");
             result.setCode(99);
